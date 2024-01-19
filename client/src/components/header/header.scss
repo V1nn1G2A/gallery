@@ -1,0 +1,39 @@
+.header {
+  background-color: wheat;
+  padding: 15px 0;
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_logo {
+    width: 8%;
+    height: 8%;
+  }
+
+  &_nav { 
+    margin-right: 20px ;
+    width: 50%;
+  }
+
+  &_ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_li {
+  }
+
+  &_link {
+    text-decoration: none;
+    font-size: 20px;
+
+    &_find {
+      background-image: url("../../static/assets/find_botton.png");
+      background-repeat: no-repeat;
+      padding: 2px 12px;
+    }
+  }
+}

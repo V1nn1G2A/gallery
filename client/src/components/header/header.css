@@ -1,0 +1,30 @@
+.header {
+  background-color: wheat;
+  padding: 15px 0;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+}
+.header_logo {
+  width: 8%;
+  height: 8%;
+}
+.header_nav {
+  margin-right: 20px;
+  width: 50%;
+}
+.header_ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.header_link {
+  text-decoration: none;
+  font-size: 20px;
+}
+.header_link_find {
+  background-image: url("../../static/assets/find_botton.png");
+  background-repeat: no-repeat;
+  padding: 2px 12px;
+}/*# sourceMappingURL=header.css.map */

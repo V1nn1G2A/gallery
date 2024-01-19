@@ -1,0 +1,10 @@
+.post {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+.post_img {
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=main.css.map */
